@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TravelGang</title>
   </head>
-  <body>
+  <body id="home" class="scrollspy">
     <!--Navbar-->
     <div class="navbar-fixed">
       <nav class="teal">
@@ -105,6 +105,28 @@
           </div>
         </li>
       </ul>
+    </section>
+
+    <!--Section: Search-->
+    <section
+      id="search"
+      class="section section-search teal darken-1 white-text center scrollspy"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h3>Search Destination</h3>
+            <div class="input-field">
+              <input
+                type="text"
+                class="white grey-text autocomplete"
+                id="autocomplete-input"
+                placeholder="Dominica, Barbados, etc..."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--footer-->
